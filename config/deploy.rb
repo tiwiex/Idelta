@@ -41,7 +41,7 @@ set :repo_url, "https://github.com/tiwiex/idelta.git"
 
 set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
-
+set :rvm_ruby_version, '2.4.1'
 namespace :deploy do
 
     after :restart, :clear_cache do
