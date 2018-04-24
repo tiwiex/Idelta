@@ -49,10 +49,16 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
     # Remove the following if your app does not use Rails
+  gem 'capistrano'
+  gem 'capistrano-nginx'
   gem 'capistrano-rails'
   gem "capistrano3-puma"
   # Remove the following if your server does not use RVM
   gem 'capistrano-rvm'
+  gem 'capistrano-rails-db'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-upload-config'
+  gem 'sshkit-sudo'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -2,7 +2,7 @@
 lock "~> 3.10.2"
 
 set :application, "idelta"
-set :repo_url, "git@example.com:me/my_repo.git"
+#set :repo_url, "git@example.com:me/my_repo.git"
 set :repo_url, "https://github.com/tiwiex/idelta.git"
 
 # Default branch is :master
